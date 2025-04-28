@@ -1,0 +1,26 @@
+{
+	"name": "informatron",
+	"version": "0.4.0",
+	"title": "InformaTron",
+	"author": "Earendel",
+	"dependencies": [
+    "base >= 2.0.0"
+	],
+	"description": "The helpful information directory and guide to the galaxy. Allows mods to put help and documentation pages in game. Default hotkey is I.",
+	"factorio_version": "2.0",
+	"homepage":"https://discord.gg/ymjUVMv",
+  "package": {
+    "git_publish_branch": "master",
+    "ignore": ["**"],
+    "extra": [
+      { 
+        "root": ".build"
+      }
+    ],
+    "scripts": {
+      "datestamp": "sh ./build-scripts/datestamp.sh",
+      "prepackage": "sh ./build-scripts/prepackage.sh",
+      "postpublish": "sh ./build-scripts/postpublish.sh"
+    }
+  }
+}

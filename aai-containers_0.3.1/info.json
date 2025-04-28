@@ -1,0 +1,26 @@
+{
+	"name": "aai-containers",
+	"version": "0.3.1",
+	"title": "AAI Containers & Warehouses",
+	"author": "Earendel",
+	"dependencies": [
+		"base >= 2.0.2", "(?) space-age >= 2.0.2"
+	],
+	"description": "A set of containers in the Factorio style with multiple options for inventory sizes. Chest 1x1, Strongbox 2x2, Storehouse 4x4, and Warehouse 6x6. Logistic and non-logistic variants of all. Container colour uses masks so other mods can modify the tint (for colour blindness etc).",
+	"factorio_version": "2.0",
+	"homepage": "https://factorio.miraheze.org",
+  "package": {
+    "git_publish_branch": "master",
+    "ignore": ["**"],
+    "extra": [
+      { 
+        "root": ".build"
+      }
+    ],
+    "scripts": {
+      "datestamp": "sh ./build-scripts/datestamp.sh",
+      "prepackage": "sh ./build-scripts/prepackage.sh",
+      "postpublish": "sh ./build-scripts/postpublish.sh"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+	"name": "aai-signals",
+	"version": "0.7.1",
+	"title": "AAI Signals",
+	"author": "Earendel",
+	"dependencies": ["base >= 2.0.0"],
+	"description": "Additional signals for things like health, speed, angle, land, water, position (X & Y), enemy detection, etc... Developed primarily for the Programmable Vehicles Mod but the signals can be used for anything.",
+	"factorio_version": "2.0",
+  "package": {
+    "git_publish_branch": "master",
+    "ignore": ["**"],
+    "extra": [
+      {
+        "root": ".build"
+      }
+    ],
+    "scripts": {
+      "datestamp": "sh ./build-scripts/datestamp.sh",
+      "prepackage": "sh ./build-scripts/prepackage.sh",
+      "postpublish": "sh ./build-scripts/postpublish.sh"
+    }
+  }
+}

@@ -1,0 +1,130 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 24. 10. 2024
+  Bugfixes:
+    - Added missing trash inventory on buffer and requester chests.
+    - Adjusted the way stack sizes are set, to avoid load error when using with Merging Chests.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 16. 10. 2024
+  Changes:
+    - Updated for Factorio 2.0
+    - Tentative compatibility with Space Age. Ingredients, rocket capacities, and position in the tech tree may be changed in the future.
+    - Added missing logistic science prerequisite for the regular strongbox.
+
+  Locale:
+    - Added Vietnamese translation thanks to DTA.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11
+Date: 30. 06. 2022
+  Changes:
+    - Added graphics for stretched 1xN basic containers.
+
+  Locale:
+    - Added Russian translation thanks to Shadow_Man.
+    - Added Spanish translation thanks to SpiderLove.
+    - Added Brazilian Portuguese translation thanks to 123499 and fuhnert.
+    - Added Korean translation thanks to x2605.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 07. 01. 2022
+  Changes:
+    - Added a setting to disable the number-in-icon for containers, thanks to Quezler.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 05. 10. 2021
+  Changes:
+    - Changed the container item sorting so that containers are in consistent columns or type.
+    - Added a setting to scale the alt-mode icon of a container with its size, thanks to VVG.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 14. 05. 2021
+  Locale:
+    - Japanese translation thanks to Donadona.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 24. 01. 2021
+  Changes:
+    - Removed logistic request slot limit from requiester and buffer chests.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 05. 12. 2020
+  Changes:
+    - Changed default capacity option to "Vanilla".
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 04. 12. 2020
+  Bugfixes:
+    - Fixed that the "Med" setting was not appearing in the options list.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 04. 12. 2020
+  Bugfixes:
+    - Fixed that 1x1 box setting was not being applied and it was 1xn containers, not just 1x1 containers.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 03. 12. 2020
+  Changes:
+    - Added setting for rezising 1x1 chests.
+    - Added setting for inventory size progression.
+    - Removed concrete from Strongbox recipe.
+    - Added concrete prerequisite to Storehouse tech.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 24. 11. 2020
+  Changes:
+    - Moved 1x1 container resize to be a final-fixes step.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 23. 11. 2020
+  Info:
+    - Updated for Factorio 1.1.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 22. 11. 2020
+  Changes:
+    - Applied collision box change to all containers with the same original footprint to avoid issues with upgrade lines.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 21. 11. 2020
+  Bugfixes:
+    - Fixed fast replace groups.
+
+  Changes:
+    - Reduced collision box slightly so it is easier to move between containers.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 20. 11. 2020
+  Bugfixes:
+    - Fixed low resolution images.
+    - Fixes Space Exploration space placement.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 20. 11. 2020
+  Bugfixes:
+    - Fixed logistic storage did not have a filter.
+
+  Locale:
+    - Added zn-CN translation thanks to Ph.X.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 19. 11. 2020
+  Info:
+    - First version.

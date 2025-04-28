@@ -1,0 +1,76 @@
+
+{
+  "mods": 
+  [
+    
+    {
+      "name": "base",
+      "enabled": true
+    },
+    
+    {
+      "name": "elevated-rails",
+      "enabled": true
+    },
+    
+    {
+      "name": "quality",
+      "enabled": true
+    },
+    
+    {
+      "name": "space-age",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-containers",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-programmable-vehicles",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-signals",
+      "enabled": true
+    },
+    
+    {
+      "name": "alien-biomes",
+      "enabled": false
+    },
+    
+    {
+      "name": "bobinserters",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblibrary",
+      "enabled": true
+    },
+    
+    {
+      "name": "boblogistics",
+      "enabled": false
+    },
+    
+    {
+      "name": "DiscoScience",
+      "enabled": true
+    },
+    
+    {
+      "name": "Flow Control",
+      "enabled": true
+    },
+    
+    {
+      "name": "informatron",
+      "enabled": true
+    }
+  ]
+}
