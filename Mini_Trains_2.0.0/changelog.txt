@@ -1,0 +1,15 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-11-10
+  Changes:
+    - 2.0 update.
+    - Better locomotive and wagon alignment (they now have a 1 tile gap between them).
+    - Increased Mini fluid wagon storage volume from 20k to 30k.
+    - Remastered graphics by Sacredanarchy.
+    - [space-age] New sloped train graphics by Sacredanarchy.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2023-04-02
+  Changes:
+    - Initial release.
+    - Graphics by Sacredanarchy

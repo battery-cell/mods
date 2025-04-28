@@ -1,0 +1,66 @@
+---------------------------------------------------------------------------------------------------
+Version: 3.0.3
+Date: 2024-11-15
+  Bugfixes:
+    - fixed circuit wire connections
+    - fixed startup error with closed tank variant
+---------------------------------------------------------------------------------------------------
+Version: 3.0.2
+Date: 2024-11-14
+  Bugfixes:
+    - fixed incorrect tank volume
+---------------------------------------------------------------------------------------------------
+Version: 3.0.1
+Date: 2024-11-13
+  Bugfixes:
+    - fixed an oversight when porting to 2.0
+---------------------------------------------------------------------------------------------------
+Version: 3.0.0
+Date: 2024-11-13
+  Features:
+    - ported to 2.0, pumps are no longer required to get fluids out of a tank
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2024-04-24
+  Translation:
+    - added german translation
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-03-29
+  Info:
+    - renamed settings internally. Make sure to check your settings again if you used non default settings before updating!
+  Bugfixes:
+    - fixed large tanks not completely filling without using pumps
+  Features:
+    - added a new "closed" variant with no fill level indicator window
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 2023-09-17
+  Features:
+    - added startup setting to specify the tanks capacity
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 2023-09-03
+  Bugfixes:
+    - fixed an error when loading a save in multiplayer
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2023-09-01
+  Bugfixes:
+    - fixed graphics disparity between opaque and transparent mode
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2023-08-31
+  Bugfixes:
+    - fixed runtime error on game join / save load
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2023-08-30
+  Features:
+    - added transparent tank variants with custom fluid animation
+    - made it possible to walk and drive over the top of storage tanks
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2023-08-23
+  Features:
+    - initial release
