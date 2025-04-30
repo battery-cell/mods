@@ -89,7 +89,32 @@
     },
     
     {
+      "name": "Mining_Drones_Remastered",
+      "enabled": false
+    },
+    
+    {
       "name": "Mini_Trains",
+      "enabled": true
+    },
+    
+    {
+      "name": "Planet-Hopper",
+      "enabled": true
+    },
+    
+    {
+      "name": "QualityAssurance",
+      "enabled": true
+    },
+    
+    {
+      "name": "sniper-rifle-improved",
+      "enabled": true
+    },
+    
+    {
+      "name": "spiderbots",
       "enabled": true
     },
     

@@ -1,0 +1,12 @@
+{
+    "name": "Planet-Hopper",
+    "version": "2.3.5",
+    "factorio_version": "2.0",
+    "title": "Planet Hoppers",
+    "author": "thesixthroc",
+    "contact": "Discord: https://discord.gg/VuVhYUBbWE",
+    "description": "Planet hoppers are miniature rockets that are easy to launch, but can only carry players.\n\nAn optional setting, enabled by default, allows travel directly between planets skipping space platforms entirely. However, at least one space platform must be above the launch site in order to launch.",
+    "homepage": "https://discord.gg/VuVhYUBbWE",
+    "dependencies": ["base >= 2.0.34", "space-age >= 2.0.34", "? Space-Age-Without-Platforms"],
+    "space_travel_required": true
+}
