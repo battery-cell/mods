@@ -1,0 +1,10 @@
+{
+  "name": "OmegaDrill",
+  "version": "0.3.6",
+  "factorio_version": "2.0",
+  "title": "Omega Drill",
+  "author": "toddnollan",
+  "homepage": "",
+  "dependencies": ["base >= 2.0.0", "? space-age >= 2.0.0"],
+  "description": "Adds a large, Powerful Drill"
+}

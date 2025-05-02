@@ -1,0 +1,2 @@
+Icons:
+	Bomb: "Bomb (high-poly draft)" (https://skfb.ly/6VRAB) by HardBread is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).

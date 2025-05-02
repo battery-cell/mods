@@ -1,0 +1,25 @@
+------------------------------------------------------------------------------------
+--                    INSTRUCTIONS FOR CHARACTER SELECTOR MODS                    --
+------------------------------------------------------------------------------------
+-- The following character selector mods are recognized per default. If your mod is
+-- in this list, you don't need to do anything:
+--
+-- miniMAXIme Character scaler and selector (https://mods.factorio.com/mod/minime)
+-- RitnCharacters (https://mods.factorio.com/mod/RitnCharacters)
+
+
+-- ANNOUNCE YOUR MOD TO PREVENT OVERWRITING OF DEFAULT PROTOTYPES (data-updates.lua)
+------------------------------------------------------------------------------------
+-- If your mod is not in the list of known character selector mods, but you want to
+-- prevent "CharacterModHelper" from overwriting the default prototypes, it must
+-- know about your mod! So you should register it with "CharacterModHelper".
+--
+-- Add this to data-updates.lua:
+
+if CharModHelper and CharModHelper.enable_multi_character then
+  CharModHelper.enable_multi_character("name-of-your-mod")
+end
+
+-- Please note: There will be an error if the function is called without an argument
+-- or if the argument is not the name of an active mod! This is intentional, to
+-- alert you immediately if there are any problems.

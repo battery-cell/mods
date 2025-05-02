@@ -1,0 +1,14 @@
+{
+	"ammo-category":
+	[
+		["kj_dreadnought_bolter", "kj_bolter"]
+	],
+	"ammo":
+	[
+		["kj_dreadnought_bolt", "kj_bolt"]
+	],
+	"item":
+	[
+		["kj_dreadnought_bolt", "kj_bolt"]
+	]
+}

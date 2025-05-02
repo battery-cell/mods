@@ -1,0 +1,18 @@
+{
+  "entity":
+  [
+    ["minigun-platform-mk1", "combat-platform-mk1"],
+	["minigun-platform-mk2", "combat-platform-mk2"],
+	["shotgun-platform-mk1", "combat-platform-mk1"],
+	["shotgun-platform-mk2", "combat-platform-mk2"],
+	["cannon-platform-mk1", "combat-platform-mk1"],
+	["cannon-platform-mk2", "combat-platform-mk2"],
+	["rocket-platform-mk1", "combat-platform-mk1"],
+	["rocket-platform-mk2", "combat-platform-mk2"],
+	["flamethrower-platform-mk1", "combat-platform-mk1"],
+	["flamethrower-platform-mk2", "combat-platform-mk2"],
+	["radar-platform-mk1", "combat-platform-mk1"],
+	["searchlight-platform-mk1", "combat-platform-mk1"],
+	["repair-platform-mk1", "combat-platform-mk1"]
+  ]
+}

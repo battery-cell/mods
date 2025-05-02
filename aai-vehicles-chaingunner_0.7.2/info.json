@@ -1,0 +1,23 @@
+{
+  "name": "aai-vehicles-chaingunner",
+  "version": "0.7.2",
+  "title": "AAI Vehicles: Chaingunner",
+  "author": "Earendel",
+  "dependencies": ["base >= 2.0.0"],
+  "description": "The Chaingunner vehicle is essentially a gun turret on tracks. Turret creep has never been easier. Can be automated with the Programmable Vehicles mod.",
+  "factorio_version": "2.0",
+  "homepage": "https://factorio.miraheze.org",
+  "package": {
+    "git_publish_branch": "master",
+    "ignore": ["**"],
+    "extra": [
+      { 
+        "root": ".build"
+      }
+    ],
+    "scripts": {
+      "datestamp": "sh ./build-scripts/datestamp.sh",
+      "prepackage": "sh ./build-scripts/prepackage.sh"
+    }
+  }
+}

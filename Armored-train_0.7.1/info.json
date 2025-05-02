@@ -1,0 +1,14 @@
+{
+	"name": "Armored-train",
+	"version": "0.7.1",
+	"factorio_version": "2.0",
+	"title": "Armored Train (Turret Wagons)",
+	"author": "Pandamiami80s",
+	"description": "Turret Wagons and Armored Train (T.W.A.T.)",
+	"dependencies": 
+	[
+		"base",
+		"? elevated-rails",
+		"turret-library >= 0.1.6"
+	]
+}

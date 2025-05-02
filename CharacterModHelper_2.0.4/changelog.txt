@@ -1,0 +1,120 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 2025-02-13
+
+  Bugfixes:
+    - Fixed crash when checking armor_picture_mapping of corpses where this wasn't set.
+
+  Changes:
+    - Apparently, in version 2.0.2 I've disabled calls to images.check_space_age() and images.check_hr_graphics() while testing and forgot to enable them again before uploading. These functions are active again.
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 2025-02-13
+
+  Info:
+    - Changed mod title from "Helper for mods that create new characters" to "Character mod helper". The old title was too desciptive and, thus, too long. (https://mods.factorio.com/mod/CharacterModHelper/discussion/67782176f222dda95da53f52)
+
+  Bugfixes:
+    - Fixed crash when mods that add new armor also added a new armor picture to the default character's corpse. (https://mods.factorio.com/mod/minime/discussion/6797df6e4636ff3e9ca2f3fc)
+
+  Changes:
+    - Changed default value of startup setting "CMH_debugging" to 'false'. (https://mods.factorio.com/mod/CharacterModHelper/discussion/67781938f222dda95da53f49)
+
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 2024-12-01
+
+  Bugfixes:
+    - Fixed that the game would crash on loading if "space-age" was active. (https://mods.factorio.com/mod/CharacterModHelper/discussion/674b8dfe0ebcda397119b677)
+
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2024-11-30
+
+  Changes:
+    - Will now check for hr_version of images/animations in character properties before creating new characters. Since Factorio 2.0, images only have one resolution. If a character still defined with hr_version images, only the low-res version will be used and the hi-res version will be discarded. We now move everything in image.hr_version to image.
+
+    - If a character was defined with properties that are only valid in Space Age, we will remove these if Space Age is not active. Not sure if this is reasonable because most mods catering to Space Age will have a dependency on it (or use assets of it and will crash when the mod is not active). Also, there could still be other properties that I haven't considered yet. Let's say this is experimental. :-)
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-10-27
+
+  Info:
+    - Update for Factorio 2.0.
+
+  Changes:
+    - Added startup setting to enable/disable debugging to log. (https://mods.factorio.com/mod/CharacterModHelper/discussion/66346f8b551e6a7dd9377f1d)
+
+    - Sourced out assertions and debugging stuff to a new library mod. I've used (versions of) that code in most of my mods already, and given all the changes in Factorio 2.0, it was too cumbersome to fix more or less the same things everywhere, so it made sense to put those things into a library mod.
+
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 2023-04-08
+
+  Bugfixes:
+    - Fixed crash on startup, when trying to access a non-existant character.  (https://mods.factorio.com/mod/CharacterModHelper/discussion/63f08d8085c85134f160ffaf)
+
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 2023-04-08
+
+  Bugfixes:
+    - Fixed that admins would always be warned that they should install a character selector mod, even if one was active. Caused by renaming the table with mod properties, but still using the old name when checking for active selector mods.  (https://mods.factorio.com/mod/CharacterModHelper/discussion/63f08d8085c85134f160ffaf)
+
+  Changes:
+    - If several characters should be available but no selector mod can be used to switch characters, we'll output more detailed diagnostic messages (considering mod version, settings, and list of characters supported by a selector mod).
+    - Admins (or the single player) will be nagged up to 3 times to activate a suitable selector mod. The counter will be reset when on_configuration_changed is triggered (Factorio version/mod versions/startup settings are changed or mods are added/removed).
+
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 2023-02-14
+
+  Bugfixes:
+    - Added handler for on_load to prevent desyncs in multiplayer games. (https://mods.factorio.com/mod/CharacterModHelper/discussion/63eb2de5def1aeaa58609ed8)
+    - Fixed that wrong variable was passed on to rounding function.
+    - Fixed crash in output function.
+
+  Changes:
+    - The command for creating a character can't be used by players who are in god mode because they have activated SE's remote view.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 2023-02-14
+
+  Bugfixes:
+    - Fixed crash caused by a typo.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2023-02-14
+
+  Major feature:
+    - Added some control scripting. If the default character has been replaced with at least two modded characters, CharacterModHelper will now recommend admins or the single player to activate a character selector mod. If you load a game after removing a character mod, you could be stuck in god mode without an easy way to get a new character. CharacterModHelper offers commands now that help you to get a usable character:
+      - /CMH-make-character (Creates a new character for the player issuing the command at the first position between the player position and {0, 0} where it's possible. This will only work if the player is in god mode! Before executing this command, you should make sure that you are at a suitable position, e.g. not over water, a tiny island, or in enemy area.)
+      - /CMH-move DIRECTION DISTANCE (Teleports the player between 1 and 20 chunks in the given direction.)
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2022-04-19
+
+  Changes:
+    - Added function CharModHelper.create_prototypes(prototype_data) for the convenience of character mod authors.
+    - Updated description.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2022-04-10
+
+  Info:
+    - This mod is meant to be used by mods that provide new characters and by character selector mods.
+    - Character mods get some helper functions that allow them to concentrate on just defining their character/character-corpse prototypes, without having to handle overwriting the default or updating the new prototypes.
+    - Character selector mods can call a function that will prevent all character mods using this mod from overwriting the default character.
+    - Character mods must add a dependency on this mod to ensure the necessary functions are available. The dependency is optional for character selector mods -- they should also work without it.
+    - If you're the author of a character or character selector mod, please refer to the files in the README directory for usage instructions!

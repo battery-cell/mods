@@ -1,0 +1,16 @@
+{
+  "name": "kj_40kdreadnought",
+  "version": "2.0.1",
+  "title": "King Jo's Warhammer 40K Iron Fist Dreadnought",
+  "author": "TheKingJo",
+  "contact": "",
+  "homepage": "https://steamcommunity.com/id/thekingjo/",
+  "description": "Adds a Warhammer 40K Iron Fist Dreadnought. It has a cannon, a bolter and can speak on command.",
+  "factorio_version":"2.0",
+  "dependencies": ["base",
+	"kj_fuel >= 2.0.0",
+	"kj_vehicles >= 2.0.19",
+	"? Wh40k_Armoury >= 2.0.0",
+	"? Wh40k_Armoury_fork >= 2.0.0",
+	"? space-exploration >= 0.5.57"]
+}

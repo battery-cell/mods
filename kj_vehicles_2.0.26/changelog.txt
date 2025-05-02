@@ -1,0 +1,170 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.26
+Date: 02.04.2025
+  Changes:
+    - removed some log messages
+  Fixes:
+    - error related to 40k bunker and turret version referencing to same ingredients and other mods making concrete a fluid
+---------------------------------------------------------------------------------------------------
+Version: 2.0.25
+Date: 22.03.2025
+  Fixes:
+    - fixed typo that led to crash when having rail adding mods installed
+---------------------------------------------------------------------------------------------------
+Version: 2.0.24
+Date: 18.03.2025
+  Changes:
+    - added support for The Flier - Spitter of the skies mod regarding anti air defense
+---------------------------------------------------------------------------------------------------
+Version: 2.0.23
+Date: 23.02.2025
+  Changes:
+    - Rex, Ray, Leman Russ ammo no longer destroy cliffs
+    - Ammo recipes balanced
+    - Ammo damages balanced
+    - Predator shooting speed bonus reduced
+    - military vehicles techs adjusted
+    - additional ammo for military vehicles put in same tech as vehicle
+---------------------------------------------------------------------------------------------------
+Version: 2.0.22
+Date: 21.02.2025
+  Changes:
+    - first step for reworked ammo recipes and damages
+  Fixes:
+    - error related to not having ho 229 mod enabled but tech requisiting it
+---------------------------------------------------------------------------------------------------
+Version: 2.0.21
+Date: 20.02.2025
+  Fixes:
+    - changed fresnel recipe to be actually craftable
+---------------------------------------------------------------------------------------------------
+Version: 2.0.20
+Date: 10.02.2025
+  Changes:
+    - finalized support for laser cannon mod
+---------------------------------------------------------------------------------------------------
+Version: 2.0.19
+Date: 09.02.2025
+  Changes:
+    - added support for my new laser turret
+    - phalanx drum ammo now has 1500 instead of 1550 bullets
+    - changed weight and stack size of some entitie items and ammmos
+    - changed speeder recipe
+    - changed pak and bunker energy source to void
+  Fixes:
+    - rex railgun animation is now glow
+---------------------------------------------------------------------------------------------------
+Version: 2.0.18
+Date: 04.02.2025
+  Changes:
+    - changed default key of baneblade artillery fire to shift+v to prevent doubling with vertical mirror
+---------------------------------------------------------------------------------------------------
+Version: 2.0.17
+Date: 31.01.2025
+  Fixes:
+    - error that came with having only ratte / ray / rex enabled and the mod category option on
+---------------------------------------------------------------------------------------------------
+Version: 2.0.16
+Date: 21.01.2025
+  Changes:
+    - added new ammo variant for phalanx
+---------------------------------------------------------------------------------------------------
+Version: 2.0.15
+Date: 18.01.2025
+  Fixes:
+    - still the same error
+---------------------------------------------------------------------------------------------------
+Version: 2.0.14
+Date: 18.01.2025
+  Fixes:
+    - an error in connection with the metal gear ray
+---------------------------------------------------------------------------------------------------
+Version: 2.0.13
+Date: 18.01.2025
+  Fixes:
+    - an error in connection with the war rig
+---------------------------------------------------------------------------------------------------
+Version: 2.0.12
+Date: 17.01.2025
+  Changes:
+    - modname and thumbnail
+    - established AAI compatibility again
+  Fixes:
+    - some errors in connection with AAI and the wh40k bunker
+---------------------------------------------------------------------------------------------------
+Version: 2.0.11
+Date: 12.01.2025
+  Fixes:
+    - typo
+---------------------------------------------------------------------------------------------------
+Version: 2.0.10
+Date: 12.01.2025
+  Changes:
+    - added support for pre industrial warfare
+  Fixes:
+    - B-29 rotor animation now in right direction
+    - planes now receive trigger_target_mask to be targetable by AA guns
+    - character is no longer air unit or flying since cars can be targeted by default now
+    - war rig non car variants get correct ammo/health applied now
+---------------------------------------------------------------------------------------------------
+Version: 2.0.9
+Date: 07.01.2025
+  Changes:
+    - added support for B-29
+---------------------------------------------------------------------------------------------------
+Version: 2.0.8
+Date: 07.01.2025
+  Changes:
+    - added support for all of my planes. a couple parameters of them have changed
+---------------------------------------------------------------------------------------------------
+Version: 2.0.7
+Date: 29.11.2024
+  Changes:
+    - added support for war rig
+---------------------------------------------------------------------------------------------------
+Version: 2.0.6
+Date: 26.11.2024
+  Changes:
+    - integrated my balancer mod functionalities
+    - transferred the settings of vierling and phalanx to this mod
+    - locale adjustments
+    - unique ammo category icon added for vierling and phalanx
+  Fixes:
+    - (re)added dreadnought german locale
+    - Leopard 2A6 ammo getting tech upgrades again
+---------------------------------------------------------------------------------------------------
+Version: 2.0.5
+Date: 24.11.2024
+  Changes:
+    - added support for vierling, phalanx, watchtower, bunker
+  Fixes:
+    - dreadnought using correct damages now
+---------------------------------------------------------------------------------------------------
+Version: 2.0.4
+Date: 21.11.2024
+  Changes:
+    - bolter ammo now sorted in wh40k category
+    - Dreadnought updated to 2.0
+  Fixes:
+    - fixed Ray water variant animation speed
+    - bolter recipe now gives only 1 result
+---------------------------------------------------------------------------------------------------
+Version: 2.0.3
+Date: 21.11.2024
+  Fixes:
+    - minor spelling mistake that led to error
+---------------------------------------------------------------------------------------------------
+Version: 2.0.2
+Date: 21.11.2024
+  Fixes:
+    - added an error message for non existing recipes
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 20.11.2024
+  Fixes:
+    - minor logic error
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 20.11.2024
+  Changes:
+    - Initial Release

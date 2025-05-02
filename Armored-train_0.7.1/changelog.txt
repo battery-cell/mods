@@ -1,0 +1,351 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.7.1
+Date: 2025-03-01
+  Updates:
+    - Equipment grid rebalanced
+---------------------------------------------------------------------------------------------------
+Version: 0.7.0
+Date: 2025-02-20
+  Updates:
+    - Better integration with turret library 0.1.4
+    - Modular turrets
+  Known bugs:
+    - Elevated rails masks on slope (Ask devs what happened)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.6
+Date: 2025-02-04
+  Updates:
+    - Thumbnail update
+    - Double flamethrower platform
+    - Storage overflow bug fixed + Crash on loading old version save (Again)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.5
+Date: 2025-02-03
+  Bug fixes:
+    - Zip archive repaired
+---------------------------------------------------------------------------------------------------
+Version: 0.6.4
+Date: 2025-02-02
+  Bug fixes:
+    - Storage overflow bug fixed
+    - Crash on loading old version save
+  Updates:
+    - turret-library integration (No need to redownload graphics for turrets each time)
+    - Ammo spilled from turrets when platform is mined (Most safe method to get precious ammo back, especially yellow magazines)
+---------------------------------------------------------------------------------------------------
+Version: 0.6.3
+Date: 2025-01-29
+  Updates:
+    - Changelog update
+    - Technology tree updated and rebalanced (new icons)
+    - Repair arm range: 2 wagons left/right (Total 5 wagons are being affected including self)
+    - Turret rerender (reduced size from 512x to 256x, increased contrast)
+    - Turret masks
+    - Wagons rerender (updated model, increased contrast)
+    - Locomotive rerender and mask + sound for elevated rails
+    - Turret selection box for elevated rails extended
+  New:
+    - Platforms can have two turrets instead of one (New wagon model)
+    - Double vulcan platform
+    - Double Storm platform
+  To do:
+    - Ammo from turrets can't be retrieved again
+    - Display repair arm range in on_tick
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.2
+Date: 2025-01-25
+  Changes:
+    - Updated graphics for platforms
+    - Updated cannon mk 2 (Cyclops model)
+    - New armored locomotive model
+    - New thumbnail.png
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.1
+Date: 2025-01-25
+  Changes:
+    - Updated graphics for turrets (New flamethrower model)
+    - Updated graphics for platforms + sloped
+    - Flamethrower attack parameters changed to tank flamethrower (No more rails destruction)
+    - Updated icons
+    - Added description to items/entities
+    - Minigun mk 2 (Octopus) removed and replaced with Cannon mk 2 (Cyclops)
+  Bug fixes:
+    - Error while running event Armored-train::on_robot_pre_mined (ID 16)
+    - LuaItemStack API call when LuaItemStack was invalid for read.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.6.0
+Date: 2025-01-25
+  Changes:
+    - New graphics for platforms and turrets (Elevated rails support in next update)
+    - New item icons
+    - New map icons
+  Bug fixes:
+    - Fix crash when removing wagons in editor mode
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.9
+Date: 2025-01-25
+  Bug fixes:
+    - Explosive cannon shell friendly fire fix (Not explosion it creates)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.8
+Date: 2025-01-25
+  Changes:
+    - Turrets have quality
+    - Color mask for some turrets
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.7
+Date: 2025-01-25
+  Changes:
+    - New: Repair wagon. Repair whole train (Don't stack them up - it will be nerfed in future updates)
+    - Changed radar sprite
+  Bug fixes:
+    - Fix loosing ammo stacks on some occasion
+    - Fix red/green wire connection and infinite stretching
+    - Fix no fuel icon layer for radar
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.6
+Date: 2025-01-25
+  Changes:
+    - New: Octopus - cannon that fires like minigun to deal with big biters fast
+    - New: Swingfire - rocket turret that fires x2 range but at /4 speed. Good for destroying spawners (use red rockets for best effect)
+  Bug fixes:
+    - Fix crash when wagon destroyed too fast
+    - Recipe fix
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.5
+Date: 2025-01-25
+  Bug fixes:
+    - Startup bug fix
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.4
+Date: 2025-01-25
+  New:
+    - Searchlight wagon to see in the dark
+  Changes:
+    - Rebalancing current turrets to match base game values
+
+  Bug fixes:
+    - Crash when mining a turret with full inventory
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.3
+Date: 2025-01-25
+  Bugfixes:
+    - Turrets now can be repaired
+    - Crash when turret is destroyed
+    - Turret can be destroyed, but wagon still alive somehow
+    - All above is result of getting ammo back from mining a wagon
+  New:
+    - Shotgun turret because why not!
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.2
+Date: 2025-01-25
+  Bug fixes:
+    - Fixed loosing ammo when wagon is mined
+  Changes:
+    - Reduced turret inventory (No point to have 300 ammo inside of them now)
+    - Removed turret from Vanilla Artillery Wagon (Sorry for spoilers)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.1
+Date: 2025-01-25
+  Bug fixes:
+    - Fixed inserter bug (Ammo now supplied from wagon)
+  Changes:
+    - Turrets will follow wagon rotation done by player
+
+---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: 2025-01-25
+  Info:
+    - Updated for version 2.0
+  Changes:
+    - Turret offset fix while movement (Turrets are no longer run behind wagons)
+    - New icons
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.6
+Date: 2025-01-25
+  Bug fixes:
+    - Thumbnail fix
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.5
+Date: 2025-01-25
+  Changes:
+    - Changed sprite for radar (Limited Distribution Only Licence of original mod by Earendel)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 2025-01-25
+  Bug fixes:
+    - Changelog fix!
+    - Dependencies fix!
+    - Title fix!
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 2025-01-25
+  Info:
+    - Update for 1.1 factorio (experimental)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 2025-01-25
+  Changes:
+    - Radar platform! (fuel powered)
+    - Icons improved!
+    - Recipes balanced!
+    - Localization (RU, KO auto-translated)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 2025-01-25
+  Changes:
+    - Flamethrower turret!
+    - Turret parameters balanced again
+
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 2025-01-25
+  Changes:
+    - Cannon turret! (Changes vanilla tank ammo - not to damage player forces)
+    - Projectile offset fixes
+    - Bug when can not exit wagon/platform fixed
+    - Turret parameters balanced
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13 BETA
+Date: 2025-01-25
+  Changes:
+    - Wagon turrets re-implimented (optimised, can accept all types of ammo)
+    - Removed unnecessary items and recipes
+    - Cannon turret in future updates (need to fix sprite offsets)
+    - No migrations, because everything was re-implemented!
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+Date: 2025-01-25
+  Info:
+    - Update for 1.0
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 2025-01-25
+  Bug fixes:
+    - Changelog fix
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.10
+Date: 2025-01-25
+  Changes:
+    - Few scripts changes for compatibility with some mods...
+
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2025-01-25
+  Bug fixes:
+    - Mod portal version bug fix.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2025-01-25
+  Bug fixes:
+    - Fixed mask and shadow for locomotive.
+    - Minor fixes.
+  Changes:
+    - Turret range tweaked.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.16
+Date: 2025-01-25
+  Bug fixes:
+    - Fixed shadows and masks for some wagons.
+    - Minor fixes.
+  Info:
+    - Train will be remade in future update.
+    - Ammo compatibility coming in next update.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.151 BETA
+Date: 2025-01-25
+  Bug fixes:
+    - Fixed graphics for rocket, cannon, minigun platforms/wagons.
+    - Fix for factorio 0.17.34 (See fff #293)
+
+  Changes:
+    - Cannon platform are no more! Replaced with Cannon Wagon!
+    - Other minor fixes
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11 BETA
+Date: 2025-01-25
+  Changes:
+    - Added rocket turret!
+    - Speed force of armored locomotive fixed!
+    - Tech and upgrades are fixed!
+    - Minor fixes.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 2025-01-25
+  Info:
+    - This is a BETA version.
+
+  Changes:
+    - Now there are platforms with turrets/cannons/ etc. In the future they will be modular, you build 1 platform and put (I mean craft) on them whatever you want, even a radar.
+    - Graphics a little bit "strange" (blame Factorio's sprite render-layers), but still looking good.
+    - Added more bugs and glitches.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.52
+  Changes:
+    - Fixed Hp and other minor values
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.51
+Date: 2025-01-25
+  Info:
+    - 0.17. version of game compatibility
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Bugfixes:
+    - Fixed issue with Vehicle Turret mod, now can run both. (Additional testing required)
+    - Fixed technology tree and descriptions.
+    - Minor fixes.
+
+  Changes:
+    - Migrations are written so no broken saves, and correct map loading.
+    - Removed recipe for rocket turrets. (They are still in game, will add them in future updates as soon as I fix them and add turret cannons)
+    - Added new bugs. (Report if any stuff is broken)
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.11
+  Bugfixes:
+    - Fixed displayed names.
+
+  Changes:
+    - Now able to install turret only in minigun wagon, not vanilla one. The vanilla one is working like a storage as it should be.
+    - Expanded selection box so player can repair his turrets.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+  Bugfixes:
+    - Fixed sprite bug on startup.
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2025-01-25
+  Info:
+    - Initial release.

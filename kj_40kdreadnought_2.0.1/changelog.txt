@@ -1,0 +1,108 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 09.02.2025
+  Changes:
+    - transferred settings to master
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 21.11.2024
+  Changes:
+    - updated to 2.0
+---------------------------------------------------------------------------------------------------
+Version: 1.1.17
+Date: 28.01.2023
+  Changes:
+    - added support for the original WH 40K Armoury mod
+---------------------------------------------------------------------------------------------------
+Version: 1.1.16
+Date: 14.01.2021
+  Changes:
+    - mod folders restructure
+    - added light layer to turret animation
+---------------------------------------------------------------------------------------------------
+Version: 1.1.15
+Date: 03.01.2021
+  Fixes:
+    - projectiles now ignoring allied objects
+---------------------------------------------------------------------------------------------------
+Version: 1.1.14
+Date: 24.07.2021
+  Changes:
+    - tha big recipe_changes rework
+---------------------------------------------------------------------------------------------------
+Version: 1.1.13
+Date: 30.06.2021
+  Fixes:
+    - fuel system rework
+---------------------------------------------------------------------------------------------------
+Version: 1.1.12
+Date: 25.06.2021
+  Fixes:
+    - space exploration incompatibility solved (thx to bug report from Marr Joestar)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.11
+Date: 09.06.2021
+  Changes:
+    - space exploration support added
+---------------------------------------------------------------------------------------------------
+Version: 1.1.10
+Date: 24.05.2021
+  Changes:
+    - compatibility redone
+---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: 16.04.2021
+  Changes:
+    - recipe changes
+    - damage balancings in combination with my other mods
+    - tech tree adjustments
+    - fire immunity gained
+    - working ingame changelog
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 13.04.2021
+  Changes:
+    - increased/changed the recipe /cost of the dreadnought
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 31.03.2021
+  Changes:
+    - added migrations for bolter
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 27.03.2021
+  Changes:
+    - Bolter adjustements
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 26.03.2021
+  Changes:
+    - Made the dreadnought specific bolter into a general one (for Predator and Leman Russ Tank)
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 08.03.2021
+  Changes:
+    - Fixed the runtime script. No fps drops on busy maps anymore when using the Dreadnought.
+      You may enable the setting again.
+    - Smaller per-entity-explosion of the cannon, larger end-explosion
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 07.03.2021
+  Changes:
+    - Fixed a compatibility bug
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 07.03.2021
+  Changes:
+    - The walking sound is creating UPS drops in mid to late game. I'm working on the script but for now you can disable the walking sound via an startup option.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 05.03.2021
+  Changes:
+    - Fixed a critical bug where destroying the Dreadnought while beeing inside caused an error.
+    - Fixed issues with the voicelines
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 26.02.2021
+  Changes:
+    - Initial Release

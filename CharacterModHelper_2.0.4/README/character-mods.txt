@@ -1,0 +1,178 @@
+====================================================================================
+--                         INSTRUCTIONS FOR CHARACTER MODS                        --
+====================================================================================
+
+-- I've reused code from "IRobot" used in the following examples.
+
+
+------------------------------------------------------------------------------------
+-- DEPENDENCIES (info.json)
+------------------------------------------------------------------------------------
+-- A dependency on this mod is required to make sure the functions exist. Of course,
+-- you are free to add other dependencies as well. For more information on dependen-
+-- cies, please read <https://wiki.factorio.com/Tutorial:Mod_structure#info.json>!
+--
+-- Example: info.json
+------------------------------------------------------------------------------------
+
+  {
+      "name": "IRobot",
+      "version": "1.1.7",
+      "title": "I, Robot",
+      "author": "DellAquila; Pi-C",
+      "factorio_version": "1.1",
+      "description": "You are Compilatron. Just a graphic change.",
+      "dependencies": [ "CharacterModHelper" ]
+  }
+
+
+
+------------------------------------------------------------------------------------
+-- DEFINE YOUR PROTOTYPES (data.lua)
+------------------------------------------------------------------------------------
+-- You'll want to define a character and a character corpse. Both should be based on
+-- the default prototype. There's no need to re-define *everything* from scratch, as
+-- default values will be used for everything that hasn't been explicitly defined.
+--
+-- You should store the things you want to change in a global table because you will
+-- need them again in data-final-fixes.lua!
+--
+-- Warning: Your global table must have a unique name, or other mods may modify it!
+-- Do NOT use the name from the example code! I'd recommend a name that shows it has
+-- to do with your own mod (e.g. the mod "AmongUsCharacter" has the table "AMONGUS").
+--
+-- Example: data.lua
+------------------------------------------------------------------------------------
+
+-- Debugging functions etc. provided by "CharacterModHelper"
+IROBOT = require("__CharacterModHelper__.common")("IRobot")
+
+-- Enable verbose logging? (Set the value of LOGGING_DEFAULT to "true" if you don't
+-- have the mod "_debug" but want to enable debugging to log file!)
+-- NOTE: This will affect logging of IRobot (which is using the output routines from
+--       CharacterModHelper), but not logging initiated by CharacterModHelper!
+local LOGGING_DEFAULT = false
+
+IROBOT.is_debug = mods["_debug"] and true or LOGGING_DEFAULT
+
+-- Share image path by adding it to the global table (also used in animations.lua)
+IROBOT.IMG_PATH = IROBOT.modRoot.."/graphics/"
+
+local SND_PATH = IROBOT.modRoot.."/sound/"
+local sounds = require("__base__.prototypes.entity.sounds")
+sounds.heartbeat = {
+  {
+    filename = SND_PATH.."zapsplat_science_fiction_computer_alarm_thin_beeping_loop_001_65047.ogg",
+    volume = 0.6
+  },
+  {
+    filename = SND_PATH.."zapsplat_science_fiction_computer_alarm_thin_beeping_loop_002_65048.ogg",
+    volume = 0.6
+  },
+}
+
+-- We can add data for the new prototypes to the global table we already have
+-- ("miniMAXIme" expects that characters have the case insensitive string "skin"
+-- somewhere in their name. The name is stored in file name.lua because we also need
+-- it in settings-updates.lua, so we must make sure it's the same everywhere.)
+IROBOT.character                        = { name = "IRobot_character_skin" }
+IROBOT.corpse                           = { name = IROBOT.character.name.."-corpse" }
+
+
+
+-- Character                                   --
+IROBOT.character.localised_name         = {"entity-name."..IROBOT.character.name}
+IROBOT.character.localised_description  = {"entity-description."..IROBOT.character.name}
+IROBOT.character.icons                  = {
+  {
+    icon = IROBOT.IMG_PATH.."irobot-icon.png",
+    icon_size = 64,
+  }
+}
+IROBOT.character.animations             = require("animations")
+IROBOT.character.character_corpse       = IROBOT.corpse.name
+IROBOT.character.fast_replaceable_group = "character"
+IROBOT.character.heartbeat              = sounds.heartbeat
+-- This will be added by the helper mod if a character-selector mod is active!
+--~ IROBOT.character.order                  = IROBOT.modName
+IROBOT.character.vehicle_impact_sound   = sounds.generic_impact
+
+
+-- Character corpse
+IROBOT.corpse.name                      = IROBOT.character.name.."-corpse"
+IROBOT.corpse.localised_name            = {"entity-name."..IROBOT.corpse.name}
+IROBOT.corpse.icons                     = {
+  {
+    icon                  = IROBOT.IMG_PATH.."corpse-icon.png",
+    icon_mipmaps          = 1,
+    icon_size             = 128,
+  },
+}
+-- This will be added by the helper mod if a character-selector mod is active!
+--~ IROBOT.corpse.order                     = IROBOT.modName
+IROBOT.corpse.pictures                  = {
+  layers = {
+    {
+      filename          = IROBOT.IMG_PATH.."compilatron-corpse.png",
+      frame_count       = 2,
+      size              = 64,
+      hr_version        = {
+        filename    = IROBOT.IMG_PATH.."hr-compilatron-corpse.png",
+        frame_count = 2,
+        size        = 128,
+        scale       = 0.5,
+      },
+    },
+    {
+      filename          = IROBOT.IMG_PATH.."compilatron-corpse-mask.png",
+      apply_runtime_tint = true,
+      frame_count       = 2,
+      size              = 64,
+      hr_version        = {
+        filename           = IROBOT.IMG_PATH.."hr-compilatron-corpse-mask.png",
+        apply_runtime_tint = true,
+        frame_count        = 2,
+        size               = 128,
+        scale              = 0.5,
+      },
+    },
+  },
+}
+
+
+-- Create prototypes
+CharModHelper.create_prototypes(IROBOT)
+
+
+
+------------------------------------------------------------------------------------
+-- Please note: The above will work if you have just one character. If your mod
+-- creates more than one, your table should probably look something like this:
+  MYMOD = {
+    …,
+    first_name  = { character = { … }, corpse = { … } },
+    second_name = { character = { … }, corpse = { … } },
+    …,
+    last_name   = { character = { … }, corpse = { … } }
+  }
+
+
+------------------------------------------------------------------------------------
+-- LEAVE THE FINAL CHANGES TO THIS MOD! (data-final-fixes.lua)
+------------------------------------------------------------------------------------
+-- Other mods may have modified the default character and corpse. You should respect
+-- such changes unless they conflict with the properties you've stored in the global
+-- table. "CharacterModHelper" will either (a) copy your stored properties to the
+-- default prototype if there is no character selector mod, or it will (b) copy
+-- everything except your stored properties from the default to your new prototype.
+--
+-- In case (a), the new character prototype will be deleted after everything has
+-- been copied. If another mod has assigned the new corpse to other characters (for
+-- example, "Jetpack" will use it in the flying version of the new character), the
+-- corpse will be changed there as well.
+--
+-- Example: data-final-fixes.lua
+------------------------------------------------------------------------------------
+
+-- Keep or overwrite the default prototypes?                   --
+CharModHelper.check_my_prototypes(IROBOT)

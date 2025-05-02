@@ -1,0 +1,9 @@
+{
+  "name": "SA-AtomicTank",
+  "version": "1.0.9",
+  "title": "SA-T1 Atomic Tank",
+  "author": "SacredAnarchy",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0"],
+  "description": "An old rusty tank that fires atomic shells, The SA-T1 Atomic Tank is a powerful but dangerous vehicle that can cause massive damage. Use it with caution! \nThe T1-Atom comes with a flamethrower and machine gun along side a twin chamber cannon that accepts the standard shells along with the new T1-Atom Shell."
+}

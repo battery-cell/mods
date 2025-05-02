@@ -1,0 +1,12 @@
+{
+	"name": "turret-library",
+	"version": "0.1.6",
+	"factorio_version": "2.0",
+	"title": "Turret library",
+	"author": "Pandamiami80s",
+	"description": "Used as library for my other mods",
+	"dependencies": 
+	[
+		"base"
+	]
+}

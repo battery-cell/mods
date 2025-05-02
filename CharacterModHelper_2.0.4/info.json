@@ -1,0 +1,9 @@
+{
+  "name": "CharacterModHelper",
+  "version": "2.0.4",
+  "title": "Character mod helper",
+  "author": "Pi-C",
+  "factorio_version": "2.0",
+  "description": "Helper for mods that create new characters: If your mod lets players use a character that looks differently, you'll have to decide whether you must overwrite the default character. This mod will help you with this decision, and make it really simple to overwrite the default or update the new prototypes in a safe way.",
+  "dependencies": ["Pi-C_lib"]
+}

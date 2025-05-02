@@ -1,0 +1,78 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 2024-12-01
+  Uploaded by:
+    - Morton
+
+  Changes:
+    - Removed the Low Resolution sprites, all sprites are now the High Resolution ones
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 2024-11-07
+  Uploaded by:
+    - Morton
+
+  Changes:
+    - (Space Age) Updated to have the Space Age Mech Armor sprites show when wearing the Mech Armor instead of the Mechanicus level 2 sprites
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 2024-10-27
+  Uploaded by:
+    - Morton
+
+  Bugfixes:
+    - Updated to have a soft requirment for Space Age
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2024-10-27
+  Uploaded by:
+    - Morton
+
+  Info:
+    - Updated to Factorio 2.0
+    - Mech Armor currently uses the level 2 armor sprites, looking into a way to use default Mech Armor sprites instead
+
+  Changes:
+    - Light Armor now uses level 1 armor sprites, at least Heavy Armor is needed for level 2 sprites now
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 2023-11-19
+  Uploaded by:
+    - Morton
+
+  Bugfixes:
+    - Fixed shadow alignment
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 2023-11-18
+  Uploaded by:
+    - Morton
+
+  Changes:
+    - Original High Resolution is now the Low Resolution
+    - Original High Resolution has been upscaled 4x and then downscaled by 0.5x (total of 2x upscale), this is the new High Resolution
+    - New color mask
+    - Code cleanup for scaling
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2023-11-12
+  Uploaded by:
+    - Morton
+
+  Bugfixes:
+    - Update to fix some icons
+
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2023-10-30
+  Uploaded by:
+    - Morton
+
+  Info:
+    - Initial Release

@@ -1,0 +1,15 @@
+{
+  "name": "vtk-cannon-turret",
+  "version": "2.4.1",
+  "title": "VortiK's Cannon Turret",
+  "author": "VortiK",
+  "homepage": "",
+  "description": "Adds a cannon mounted turrets and specific cannon shell magazine ammunition that behave like the thank shells without friendly fire colliding. Bonus technology to make all walls and gates resistant to explosions to better works with the cannon turret.",
+  "factorio_version": "2.0",
+  "dependencies": [
+    "base >= 2.0",
+    "? space-age >= 2.0",
+    "? quality >= 2.0",
+    "? Age-of-Production >= 1.5.16"
+  ]
+}

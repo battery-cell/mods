@@ -1,0 +1,14 @@
+{
+  "name": "kj_vehicles",
+  "version": "2.0.26",
+  "title": "King Jo's Entity Master",
+  "author": "TheKingJo",
+  "contact": "",
+  "homepage": "https://steamcommunity.com/id/thekingjo/",
+  "description": "Manages all of my entities so I only need to update this and not the sub mods.",
+  "factorio_version":"2.0",
+  "dependencies": ["base",
+	"? aai-programmable-vehicles >= 0.8.1",
+	"? l9m2-flyer-enemy >= 1.3.0",
+	"? space-age >= 2.0.32"]
+}

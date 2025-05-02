@@ -1,0 +1,103 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+  Bugfixes:
+    - Upgrading / Fast-replacing should no longer cause duplicate chests.
+    - Upgrading / Fast-replacing should no longer be impossible by hand.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+  Graphics:
+    - Added some structural frames to better fill the hitbox.
+    - Reworked Tau graphics
+    - Rotated Icons
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+  Bugfixes:
+    - Orphan deletion is now compatible with *not* having space-age
+  Features:
+    - Changelog
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+  Bugfixes:
+    - Orphan deletion updated to support Quality
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+  Bugfixes:
+    - Internal chests now look for a parent drill when their GUI is opened, and delete themselves if they have no parent drill.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+  Bugfixes:
+    - Internal chest now works with loaders.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+  Major Features:
+    - 2.0 update
+    - space-age support
+    - Internal chest introduced.
+      Now no longer do you need warehouses - the drill has its own.
+  Graphics:
+    - Complete rebuild
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+  Bugfixes:
+    - Fixed the fluid graphics
+    - Hopefully added hard ores SE support.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+  Update:
+    - Patched to 1.1
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+  Bugfixes:
+    - Fixed pollution generation
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+  Update:
+    - Patched to 0.18 support
+  Balancing:
+    - Rebalanced power and pollution values.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+  Locale:
+    - Added German Locale
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+  Locale:
+    - Added English Technology Description.
+  Graphics:
+    - Updated model (again).
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+  Update:
+    - Patched to 0.17 support by unfunf22
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+  Graphics:
+    - Made a new model. Shiiiinyyy.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+  Bugfixes:
+    - Patched a bug with the circuit network connection.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+  Update:
+    - Patched to 0.16 support by unfunf22
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+  Graphics:
+    - Increased resolution of research icon.
+  Bugfixes:
+    - Resolved conflict with some research mods.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+  Gui:
+    - Reordered crafting menu slightly
+  Locale:
+    - (hopefully) added Russian locale
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+  Graphics:
+    - Added detail to sprite.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+  Major Features:
+    - Initial Release

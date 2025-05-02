@@ -39,6 +39,31 @@
     },
     
     {
+      "name": "aai-vehicles-chaingunner",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-flame-tumbler",
+      "enabled": true
+    },
+    
+    {
+      "name": "aai-vehicles-miner",
+      "enabled": true
+    },
+    
+    {
+      "name": "Aircraft",
+      "enabled": true
+    },
+    
+    {
+      "name": "Aircraft-space-age",
+      "enabled": true
+    },
+    
+    {
       "name": "alien-biomes",
       "enabled": false
     },
@@ -46,6 +71,11 @@
     {
       "name": "any-planet-start",
       "enabled": false
+    },
+    
+    {
+      "name": "Armored-train",
+      "enabled": true
     },
     
     {
@@ -64,6 +94,16 @@
     },
     
     {
+      "name": "bobvehicleequipment",
+      "enabled": true
+    },
+    
+    {
+      "name": "CharacterModHelper",
+      "enabled": true
+    },
+    
+    {
       "name": "DiscoScience",
       "enabled": true
     },
@@ -74,12 +114,42 @@
     },
     
     {
+      "name": "flib",
+      "enabled": true
+    },
+    
+    {
       "name": "Flow Control",
       "enabled": true
     },
     
     {
+      "name": "HelicopterRevival",
+      "enabled": true
+    },
+    
+    {
+      "name": "Hovercrafts",
+      "enabled": true
+    },
+    
+    {
       "name": "informatron",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_40kdreadnought",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_fuel",
+      "enabled": true
+    },
+    
+    {
+      "name": "kj_vehicles",
       "enabled": true
     },
     
@@ -99,13 +169,28 @@
     },
     
     {
+      "name": "OmegaDrill",
+      "enabled": true
+    },
+    
+    {
+      "name": "Pi-C_lib",
+      "enabled": true
+    },
+    
+    {
       "name": "Planet-Hopper",
       "enabled": true
     },
     
     {
-      "name": "QualityAssurance",
+      "name": "SA-AtomicTank",
       "enabled": true
+    },
+    
+    {
+      "name": "SchallArmouredTrain",
+      "enabled": false
     },
     
     {
@@ -124,7 +209,17 @@
     },
     
     {
+      "name": "turret-library",
+      "enabled": true
+    },
+    
+    {
       "name": "underground-storage-tank",
+      "enabled": true
+    },
+    
+    {
+      "name": "vtk-cannon-turret",
       "enabled": true
     }
   ]

@@ -1,0 +1,13 @@
+{
+    "name": "MechanicusMiniMAX",
+    "version": "0.1.8",
+    "title": "Mechanicus (Rebuild)",
+    "description": "For the glory of the machine god. A character skin that brings the glory of the Omnissiah to an unexploited world. (standalone and miniMAXIme support)",
+    "author": "markmen494/Hapless; DellAquila; Pi-C; Morton",
+    "factorio_version": "2.0",
+    "dependencies": [
+        "base >= 2.0.0",
+        "? space-age",
+	    "CharacterModHelper"
+    ]
+}

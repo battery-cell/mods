@@ -1,0 +1,60 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 2025.01.05
+  Changes:
+    - Resistance Balanced, I took the stock tank resistance values added 5%. 
+    - Logistics requesting added with 20 trash slots.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2024.11.20
+  Changes:
+    - Sound fix.
+    - Graphics size reduction.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2024.11.10
+  Changes:
+    - Added zh-CN locale.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2024.11.9
+  Changes:
+    - Added Remote Driving.
+    - Added locale for ammo bonuses.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2024.10.24
+  Changes:
+    - Space Age compatibility, this means no LR graphics.
+    - Better scorch mark, smaller and with some variation.
+    - K2 and IR3 are no longer supported however when K2 gets an update I will add it.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2024.06.25
+  Changes:
+    - K2 equipment compatibility.
+    - Recipe will no longer show prior to researching the technology.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2024.06.13
+  Changes:
+    - Production-science-pack and utility-science-pack are now required to research the T1.
+    - The number of science packs increased from 150 to 300.
+    - Number of science packs required to increase damage and shooting speed increased.
+    - New settings available, max health, grid size and rock or tree impact immunity.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2024.06.08
+  Changes:
+    - IR3 fuel compatibility.
+    - Increased equipment grid size to 8x10.
+    - Slight efficiency increase to the tank.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2023.03.27
+  Changes:
+    - Fixed Speed research 6 to inf set to wrong stat, it will now increase speed not damage.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+  Changes:
+    - None, initial release.

@@ -1,0 +1,29 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2025-01-13
+  Uploaded by:
+    - Pi-C
+
+  Bugfixes:
+    - Fixed that function for making reverse lookup lists would be called with empty table when working on subtables of defines.riding (needed by Autodrive).
+    - Removed log spam. (https://mods.factorio.com/mod/Pi-C_lib/discussion/6783df278f2c7896721c8b47)
+
+  Changes:
+    - Added function ascertain_rendering(id_or_object) in libs/assertions.lua.
+
+  TODO:
+    - Add more functions for dealing with prototypes in the data stage. This will happen gradually as I'm updating my other mods.
+
+
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024-10-27
+  Uploaded by:
+    - Pi-C
+
+  Info:
+    - I've sourced out some code I reuse in most of my mods so I can keep it up to date more easily.
+    - For now, the mod contains mainly assertions (always loaded) and debugging stuff (loaded when debugging mode is active). Additional modules can be included separately.
+
+  TODO:
+    - Add more functions for dealing with prototypes in the data stage. This will happen gradually as I'm updating my other mods.

@@ -1,0 +1,71 @@
+{
+	"ammo":
+	[
+		["kj_rh120_penetration", "kj_rh120_ap"],
+		["kj_rh120_highexplosive", "kj_rh120_he"],
+		["kj_rh120_penetration_highexplosive", "kj_rh120_aphe"],
+		["kj_rh120_canister", "kj_rh120_can"],
+		
+		["kj_120kwk_penetration", "kj_120kwk_ap"],
+		["kj_120kwk_highexplosive", "kj_120kwk_he"],
+		["kj_120kwk_penetration_highexplosive", "kj_120kwk_aphe"],
+		
+		["kj_pak_penetration", "kj_pak_ap"],
+		["kj_pak_highexplosive", "kj_pak_he"],
+		["kj_pak_incendiary", "kj_pak_inc"],
+		
+		["kj_75kwk40_penetration", "kj_75kwk40_ap"],
+		["kj_75kwk40_highexplosive", "kj_75kwk40_he"],
+		["kj_75kwk40_penetration_highexplosive", "kj_75kwk40_aphe"],
+		
+		["kj_280SKC34_penetration", "kj_280SKC34_ap"],
+		["kj_280SKC34_highexplosive", "kj_280SKC34_he"],
+		["kj_280SKC34_incendiary", "kj_280SKC34_inc"]
+	],
+	"item":
+	[
+		["kj_rh120_penetration", "kj_rh120_ap"],
+		["kj_rh120_highexplosive", "kj_rh120_he"],
+		["kj_rh120_penetration_highexplosive", "kj_rh120_aphe"],
+		["kj_rh120_canister", "kj_rh120_can"],
+		
+		["kj_120kwk_penetration", "kj_120kwk_ap"],
+		["kj_120kwk_highexplosive", "kj_120kwk_he"],
+		["kj_120kwk_penetration_highexplosive", "kj_120kwk_aphe"],
+		
+		["kj_pak_penetration", "kj_pak_ap"],
+		["kj_pak_highexplosive", "kj_pak_he"],
+		["kj_pak_incendiary", "kj_pak_inc"],
+		
+		["kj_75kwk40_penetration", "kj_75kwk40_ap"],
+		["kj_75kwk40_highexplosive", "kj_75kwk40_he"],
+		["kj_75kwk40_penetration_highexplosive", "kj_75kwk40_aphe"],
+		
+		["kj_280SKC34_penetration", "kj_280SKC34_ap"],
+		["kj_280SKC34_highexplosive", "kj_280SKC34_he"],
+		["kj_280SKC34_incendiary", "kj_280SKC34_inc"]
+	],
+	"recipe":
+	[
+		["kj_rh120_penetration", "kj_rh120_ap"],
+		["kj_rh120_highexplosive", "kj_rh120_he"],
+		["kj_rh120_penetration_highexplosive", "kj_rh120_aphe"],
+		["kj_rh120_canister", "kj_rh120_can"],
+		
+		["kj_120kwk_penetration", "kj_120kwk_ap"],
+		["kj_120kwk_highexplosive", "kj_120kwk_he"],
+		["kj_120kwk_penetration_highexplosive", "kj_120kwk_aphe"],
+		
+		["kj_pak_penetration", "kj_pak_ap"],
+		["kj_pak_highexplosive", "kj_pak_he"],
+		["kj_pak_incendiary", "kj_pak_inc"],
+		
+		["kj_75kwk40_penetration", "kj_75kwk40_ap"],
+		["kj_75kwk40_highexplosive", "kj_75kwk40_he"],
+		["kj_75kwk40_penetration_highexplosive", "kj_75kwk40_aphe"],
+		
+		["kj_280SKC34_penetration", "kj_280SKC34_ap"],
+		["kj_280SKC34_highexplosive", "kj_280SKC34_he"],
+		["kj_280SKC34_incendiary", "kj_280SKC34_inc"]
+	]
+}

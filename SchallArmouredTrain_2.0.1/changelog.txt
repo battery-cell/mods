@@ -1,0 +1,183 @@
+---------------------------------------------------------------------------------------------------
+Version: 2.0.1
+Date: 2024.12.11
+  Bugfixes:
+    - Fixed a startup crash on inconsistent tech tree when MK1 or MK2 tanks are disabled in "Schall Tank Platoon".
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 2024.12.11
+  Bugfixes:
+    - Fixed a startup crash on inconsistent tech tree when MK1 or MK2 tanks are disabled in "Schall Tank Platoon".
+---------------------------------------------------------------------------------------------------
+Version: 2.0.0
+Date: 2024.11.27
+  Features:
+    - Updated to 2.0.
+  Graphics:
+    - Implemented custom sprite sheets for armoured draisines, as 2.0 API is more restrictive in locomotive prototype.
+  Changes:
+    - Adjusted prototypes to base game 2.0.7 standard.
+    - Renamed settings for better mod compatibility.
+  Optimisations:
+    - Code refactoring.
+  Balancing:
+    - Rebalanced entity weight to fit better with item weight of vanilla train parts.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 2024.11.27
+  Graphics:
+    - Added front light to armoured draisines.
+  Changes:
+    - Adjusted prototypes to base game 1.1.110 standard.
+    - Rewritten library code, as a part of code refactoring.
+    - Allowed MK3 locomotives and nuclear-powered locomotives to use both chemical and nuclear fuel types.
+  Optimisations:
+    - Code refactoring.
+  Balancing:
+    - Increased braking power of all armoured draisines, as par the increase from 400kW to 800kW in 1.1.28 vanilla tank.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 2020.12.07
+  Features:
+    - Updated to 1.1.
+  Changes:
+    - Adjusted prototypes to base game 1.1.0 standard.
+  Graphics:
+    - Upgraded technology mipmap icons to size 256.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2020.09.30
+  Features:
+    - Introduced 4 armoured draisines.
+    - Options on enable armoured draisines.  (Default: On.)
+---------------------------------------------------------------------------------------------------
+Version: 0.18.4
+Date: 2020.09.30
+  Features:
+    - Introduced 4 armoured draisines.
+    - Options on enable armoured draisines.  (Default: On.)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.10
+Date: 2020.09.30
+  Features:
+    - Introduced 4 armoured draisines.
+    - Options on enable armoured draisines.  (Default: On.)
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2020.08.27
+  Optimisations:
+    - Code refactoring, as in "Schall Tank Platoon" 1.0.1.
+---------------------------------------------------------------------------------------------------
+Version: 0.18.3
+Date: 2020.08.27
+  Optimisations:
+    - Code refactoring, as in "Schall Tank Platoon" 0.18.8.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.9
+Date: 2020.08.27
+  Optimisations:
+    - Code refactoring, as in "Schall Tank Platoon" 0.17.20.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2020.08.18
+  Features:
+    - Updated to 1.0.
+---------------------------------------------------------------------------------------------------
+Version: 0.18.2
+Date: 2020.08.18
+  Bugfixes:
+    - Corrected recipe ingredients of armoured locomotive to locomotive.  (was cargo wagon.)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.8
+Date: 2020.08.18
+  Bugfixes:
+    - Corrected recipe ingredients of armoured locomotive to locomotive.  (was cargo wagon.)
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 2020.04.16
+  Features:
+    - Use options in "Schall Tank Platoon" on hide vehicle resistances.
+  Balancing:
+    - Readjusted train resistances.
+  Optimisations:
+    - Code refactoring, as in "Schall Tank Platoon" 0.18.3.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.7
+Date: 2020.04.16
+  Features:
+    - Use options in "Schall Tank Platoon" on hide vehicle resistances.
+  Balancing:
+    - Readjusted train resistances.
+  Optimisations:
+    - Code refactoring, as in "Schall Tank Platoon" 0.17.15.
+  Locale:
+    - All locale are moved to separate mod "Schall Language Pack".
+---------------------------------------------------------------------------------------------------
+Version: 0.18.0
+Date: 2020.02.04
+  Features:
+    - Updated to 0.18.
+  Graphics:
+    - Upgraded mipmap icons to size 64 or 128.
+  Locale:
+    - All locale are moved to separate mod "Schall Language Pack".
+---------------------------------------------------------------------------------------------------
+Version: 0.17.6
+Date: 2019.07.25
+  Locale:
+    - Brazilian Portuguese is available.  (Credit to NickFury23.)
+---------------------------------------------------------------------------------------------------
+Version: 0.17.5
+Date: 2019.07.11
+  Features:
+    - Introduced 4 armoured fluid wagons.
+    - Options on enable armoured fluid wagons.  (Default: On.)
+  Locale:
+    - Removed redundant strings.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.4
+Date: 2019.05.16
+  Features:
+    - Support group mod "Transport Group", where all vehicles are moved into "Transport" group tab.
+    - Introduced 1 nuclear-powered (unarmoured) locomotive.
+    - Options on enable nuclear-powered locomotive.  (Default: On.)
+  Changes:
+    - Added a burnt fuel inventory slot to all nuclear-powered locomotives.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.3
+Date: 2019.05.06
+  Changes:
+    - Renamed technology names to base game 0.17.35 standard.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.2
+Date: 2019.04.04
+  Changes:
+    - Renamed techs to comply with 0.17.23 new requirement of contiguous levels.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.1
+Date: 2019.03.05
+  Bugfixes:
+    - Fixed error startup loading, when Schall Alien Tech option "Enable Power armor MK3" is disabled.
+---------------------------------------------------------------------------------------------------
+Version: 0.17.0
+Date: 2019.03.01
+  Features:
+    - Updated to 0.17.
+  Balancing:
+    - Increased health on most locomotives and wagons.
+    - Reduced crafting time of MK3 locomotives and wagons.
+  Changes:
+    - Changed recipes of locomotives and wagons MK2 upgrades using modules level 2.  (As par Power armor MK2.)
+    - Changed energy consumption and efficiency on locomotives and wagons.
+---------------------------------------------------------------------------------------------------
+Version: 0.16.0
+Date: 2019.02.21
+  Features:
+    - Introduced 4 armoured locomotives.
+    - Introduced 4 armoured cargo wagons.
+    - Options on enable armoured locomotives.  (Default: On.)
+    - Options on enable armoured cargo wagons.  (Default: On.)
+  Locale:
+    - English, German, traditional Chinese, simplified Chinese are available.
+  License:
+    - Using Bob's Copyright License.  Document included.

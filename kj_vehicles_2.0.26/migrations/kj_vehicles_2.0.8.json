@@ -1,0 +1,60 @@
+{
+	"ammo":
+	[
+		["kj_b17_normal", "kj_plane_50"],
+		["kj_b17_medium", "kj_plane_250"],
+		["kj_b17_big", "kj_plane_500"],
+		["kj_b17_huge", "kj_plane_1000"],
+		["kj_b17_atom", "kj_plane_atom"],
+		["kj_b17_gunner_normal", "kj_plane_lcal"],
+
+		["kj_b2_medium", "kj_plane_250"],
+		["kj_b2_big", "kj_plane_500"],
+		["kj_b2_huge", "kj_plane_1000"],
+		["kj_b2_atom", "kj_plane_atom"],
+
+		["kj_bf109_normal", "kj_plane_lcal"],
+
+		["kj_ho229_normal", "kj_plane_hcal"],
+
+		["kj_ju87_normal", "kj_plane_50"],
+		["kj_ju87_medium", "kj_plane_250"],
+		["kj_ju87_big", "kj_plane_500"],
+		["kj_ju87_huge", "kj_plane_1000"],
+		["kj_ju87_gunner_normal", "kj_plane_lcal"],
+
+		["kj_xb35_medium", "kj_plane_250"],
+		["kj_xb35_big", "kj_plane_500"],
+		["kj_xb35_huge", "kj_plane_1000"],
+		["kj_xb35_atom", "kj_plane_atom"]
+	],
+	"item":
+	[
+		["kj_b17_normal", "kj_plane_50"],
+		["kj_b17_medium", "kj_plane_250"],
+		["kj_b17_big", "kj_plane_500"],
+		["kj_b17_huge", "kj_plane_1000"],
+		["kj_b17_atom", "kj_plane_atom"],
+		["kj_b17_gunner_normal", "kj_plane_lcal"],
+
+		["kj_b2_medium", "kj_plane_250"],
+		["kj_b2_big", "kj_plane_500"],
+		["kj_b2_huge", "kj_plane_1000"],
+		["kj_b2_atom", "kj_plane_atom"],
+
+		["kj_bf109_normal", "kj_plane_lcal"],
+
+		["kj_ho229_normal", "kj_plane_hcal"],
+
+		["kj_ju87_normal", "kj_plane_50"],
+		["kj_ju87_medium", "kj_plane_250"],
+		["kj_ju87_big", "kj_plane_500"],
+		["kj_ju87_huge", "kj_plane_1000"],
+		["kj_ju87_gunner_normal", "kj_plane_lcal"],
+
+		["kj_xb35_medium", "kj_plane_250"],
+		["kj_xb35_big", "kj_plane_500"],
+		["kj_xb35_huge", "kj_plane_1000"],
+		["kj_xb35_atom", "kj_plane_atom"]
+	]
+}
